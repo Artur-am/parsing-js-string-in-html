@@ -13,6 +13,7 @@
 </pre>
 
 <h3>Example function: </h3>
+<div class="type-javascript">
 <pre>
 function template(tpl, obj){
 
@@ -74,3 +75,4 @@ function template(tpl, obj){
     return tpl;
 }
 </pre>
+</div>
