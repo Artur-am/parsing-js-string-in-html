@@ -2,6 +2,7 @@
 
 <h3>Example: </h3>
 ```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
         document.body.insertAdjacentHTML(
             'beforeend',
