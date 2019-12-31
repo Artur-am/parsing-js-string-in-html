@@ -13,8 +13,7 @@
 </pre>
 
 <h3>Example function: </h3>
-<div class="Box">
-<div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript ">
+<pre>
 function template(tpl, obj){
 
     tpl = tpl.replace(/\n/g,'').replace(/\s{2,}/g,' ');
@@ -74,5 +73,4 @@ function template(tpl, obj){
     }
     return tpl;
 }
-</div>
-</div>
+</pre>
