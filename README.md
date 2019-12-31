@@ -13,7 +13,7 @@
 <h3>Example function: </h3>
 <pre>
 function template(tpl, obj){
-    tpl = tpl.replace(/\n/g,'').replace(/\s{2,}/g,' ');\n
+    tpl = tpl.replace(/\n/g,'').replace(/\s{2,}/g,' ');
     let html_item = '';
     let block = '';
     let reg_exp = function(key){
