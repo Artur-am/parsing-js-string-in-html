@@ -8,7 +8,8 @@
             template(tpl, obj)
         );
 
-    </script></pre>
+    </script>
+</pre>
 
 <h3>Example function: </h3>
 <pre>
