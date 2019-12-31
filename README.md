@@ -1,13 +1,12 @@
 # Парсинг html-кода с помощью регулярних виражений в js (без new DOMParser()).
 
 <h3>Example: </h3>
-```js
-
+```html
+    <script>
         document.body.insertAdjacentHTML(
             'beforeend',
             template(tpl, obj)
         );
-
     </script>
 ```
 
