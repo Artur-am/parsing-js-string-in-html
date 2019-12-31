@@ -1,16 +1,14 @@
 # Парсинг html-кода с помощью регулярних виражений в js (без new DOMParser()).
 
 <h3>Example: </h3>
-<pre>
-    <script>
+<pre><script>
 
         document.body.insertAdjacentHTML(
             'beforeend',
             template(tpl, obj)
         );
 
-    </script>
-</pre>
+    </script></pre>
 
 <h3>Example function: </h3>
 <pre>
@@ -50,12 +48,12 @@ function template(tpl, obj){
                 }
             }
             t += container;
-            
+  
         }
 
         return block.replace(/undefined/, t);
     }
-    
+
     for(let obj_key in obj){
 
         let container = '';
@@ -69,7 +67,7 @@ function template(tpl, obj){
             tpl = parserBlock(obj_key);
 
         }
-        
+ 
     }
     return tpl;
 }
