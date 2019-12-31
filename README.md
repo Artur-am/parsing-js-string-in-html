@@ -1,15 +1,22 @@
 # Парсинг html-кода с помощью регулярних виражений в js (без new DOMParser()).
+```html
+<style>
+    pre pre {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+</style>
+```
 
 <h3>Example: </h3>
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<pre>
     <script>
         document.body.insertAdjacentHTML(
             'beforeend',
             template(tpl, obj)
         );
     </script>
-```
+</pre>
 
 <h3>Example function: </h3>
 <pre>
