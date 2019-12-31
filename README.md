@@ -1,12 +1,7 @@
 # Парсинг html-кода с помощью регулярних виражений в js (без new DOMParser()).
-```scss /* или css */
-pre pre {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-```
+
 <h3>Example: </h3>
-<pre><script>
+```js
 
         document.body.insertAdjacentHTML(
             'beforeend',
@@ -14,7 +9,7 @@ pre pre {
         );
 
     </script>
-</pre>
+```
 
 <h3>Example function: </h3>
 <pre>
