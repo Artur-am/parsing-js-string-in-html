@@ -1,10 +1,10 @@
 # Парсинг html-кода с помощью регулярних виражений в js (без new DOMParser()).
-<style>
+```scss /* или css */
 pre pre {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-</style>
+```
 <h3>Example: </h3>
 <pre><script>
 
