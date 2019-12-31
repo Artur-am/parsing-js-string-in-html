@@ -2,7 +2,14 @@
 
 <h3>Example: </h3>
 <pre>
-    
+    <script>
+
+        document.body.insertAdjacentHTML(
+            'beforeend',
+            template(tpl, obj)
+        );
+
+    </script>
 </pre>
 
 <h3>Example function: </h3>
@@ -65,6 +72,5 @@ function template(tpl, obj){
         
     }
     return tpl;
-    
 }
 </pre>
